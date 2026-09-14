@@ -3,6 +3,24 @@
 This repository contains the prototype and production-ready agentic workflows built using Google's **Agent Development Kit (ADK)** for **Cymbal Travel**. 
 
 ## Project Structure
+## Project Structure
+
+```text
+adk_project/
+├── my_google_search_agent/       # Travel Scout Agent
+│   ├── .env                      # Environment configuration
+│   └── agent.py                  # Agent definition with Google Search tool
+│
+├── geo_validator/                # Destination Verifier Agent
+│   ├── .env                      # Environment configuration
+│   └── agent.py                  # Agent definition with Pydantic output schema
+│
+├── llm_auditor/                  # Brochure Auditor Multi-Agent Pipeline
+│   ├── .env                      # Environment configuration
+│   └── agent.py                  # Critic and Reviser sequential workflow
+│
+├── requirements.txt              # Project dependencies
+└── README.md                     # Project documentation
 
 The project is organized into three primary agent components:
 
