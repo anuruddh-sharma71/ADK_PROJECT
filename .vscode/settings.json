@@ -1,0 +1,5 @@
+{
+    "google.geminicodeassist.inlineSuggestions.enableAuto": "off",
+    "cloudcode.duetAI.inlineSuggestions.enabled": false,
+    "cloudcode.gemini.inlineSuggestions.enabled": false
+}
